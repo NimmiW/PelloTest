@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "PelloTest", "PelloTest\PelloTest.ccproj", "{72FE865F-5837-4477-AC19-2406E3552949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{92141AC3-DAB4-43C6-BB6A-838FF20C85B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72FE865F-5837-4477-AC19-2406E3552949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FE865F-5837-4477-AC19-2406E3552949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FE865F-5837-4477-AC19-2406E3552949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FE865F-5837-4477-AC19-2406E3552949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92141AC3-DAB4-43C6-BB6A-838FF20C85B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92141AC3-DAB4-43C6-BB6A-838FF20C85B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92141AC3-DAB4-43C6-BB6A-838FF20C85B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92141AC3-DAB4-43C6-BB6A-838FF20C85B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31BE9250-DCB7-475C-ADDE-E519B538854F}
+	EndGlobalSection
+EndGlobal
