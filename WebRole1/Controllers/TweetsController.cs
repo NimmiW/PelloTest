@@ -15,7 +15,9 @@ namespace WebRole1.Controllers
         public IEnumerable<Tweet> Get()
         {
             IEnumerable<Tweet> items;
-            using (StreamReader r = new StreamReader(@"C:/Users/NimmiW/source/repos/PelloTest/WebRole1/Controllers/tweets.json"))
+            string path = HttpContext.Current.Request.MapPath("~\\json_files\\tweets.json");
+
+            using (StreamReader r = new StreamReader(path))
             {
                 var json = r.ReadToEnd();
                 items = JsonConvert.DeserializeObject<List<Tweet>>(json);
