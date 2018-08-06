@@ -21,10 +21,6 @@ namespace WebRole1.Controllers
             {
                 var json = r.ReadToEnd();
                 items = JsonConvert.DeserializeObject<List<Tweet>>(json);
-                foreach (var item in items)
-                {
-                    // Console.WriteLine("{0} {1}", item.temp, item.vcc);
-                }
             }
             return items;
         }
